@@ -1,0 +1,98 @@
+*{  margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    text-align: center;
+    line-height: 2;
+    justify-content: space-between;
+    
+}
+img{
+    width: 200px;
+    padding: 50px;
+    margin: 2% auto;
+    border-radius: 100%;
+}
+hr{
+    border-bottom: none;
+    border-color: #eaf6f6;
+    border-style: none none dotted;
+    border-width: 5px;
+    margin: 100px auto;
+    width: 7%;
+    
+}
+li{
+    list-style: none;
+}
+/* Navbar */
+.nav{
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(80, 87, 150);
+}
+.nav-link {
+    margin-left: 0;
+    margin-right: auto;
+    padding: 0 40px;
+    border-top: none;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: aliceblue;
+}
+#about-me{
+    padding: 100px auto;
+
+}
+#services{
+    background-color: rgb(15, 43, 133);
+    padding: 100px;
+    color: rgb(179, 192, 204);
+}
+#services li{
+    font-weight: bold;
+    padding: 20px;
+}
+#hobbies{
+    padding: 100px;
+}
+
+
+
+
+/* Form */
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding: 8px;
+    padding-bottom: 2px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type=text], .my-form textarea, .my-form input[type=email]{
+    width: 100%;
+    padding: 8px;
+}
+.button{
+    color: rgb(226, 238, 238);
+    background-color: rgb(15, 43, 133);
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+}
+/* Footer */
+.page-footer{
+  height: 2rem;
+  display: flex;
+  color: aliceblue;
+  background-color:   rgb(80, 87, 150);
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(73, 148, 214);
+}
